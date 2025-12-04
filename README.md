@@ -1,4 +1,4 @@
-# SmartDownloader v6.9 ULTRA PRO ENHANCED 🚀
+# SmartDownloader v1.0.0 ULTRA PRO ENHANCED 🚀
 
 https://github.com/john234-cloud/SmartDownloader
 
@@ -28,12 +28,32 @@ Supports **YouTube, TikTok, Instagram, Facebook, Twitter/X, Spotify playlists + 
 ![Playlist](screenshots/screenshot2.png)
 
 ## Quick Start (30 seconds)
+
+#### Method 1 – Easiest (recommended for most people)
 1. Download **SmartDownloader.ps1** from Releases
 2. Right-click → Run with PowerShell
 3. Paste URLs → download!
+
+#### Method 2 – Via Windows Terminal (your preferred way / admin)
+1. Press **Win + X** → **Windows Terminal (Admin)**  
+2. Navigate to the folder where you saved the script  
+   (just copy the path from File Explorer’s address bar and type `cd "`*paste-path-here*`"`)  
+3. Run the correct command:
+
+   **Windows PowerShell 5.1 version**
+   ```powershell
+   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+   ./SmartDownloader-v1.0.0.ps1
+
+    **Windows PowerShell 7+ version
+PowerShellSet-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+./SmartDownloader-v1.0.0.ps1
+
+NB:(The Set-ExecutionPolicy line is only needed the very first time.)
 
 ## License
 MIT © 2025 YourName
 
 ---
 Made with love and zero sleep
+
