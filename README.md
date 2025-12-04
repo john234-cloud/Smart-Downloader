@@ -46,7 +46,8 @@ Supports **YouTube, TikTok, Instagram, Facebook, Twitter/X, Spotify playlists + 
    ./SmartDownloader-v1.0.0.ps1
 
     **Windows PowerShell 7+ version
-PowerShellSet-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+PowerShell
+ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 ./SmartDownloader-v1.0.0.ps1
 
 NB:(The Set-ExecutionPolicy line is only needed the very first time.)
@@ -56,4 +57,5 @@ MIT © 2025 YourName
 
 ---
 Made with love and zero sleep
+
 
